@@ -101,4 +101,13 @@ All colors MUST be HSL.
   .language-badge {
     @apply inline-flex items-center px-2.5 py-0.5 rounded-md text-xs font-medium bg-[hsl(var(--badge-bg))] text-[hsl(var(--badge-text))];
   }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
 }
